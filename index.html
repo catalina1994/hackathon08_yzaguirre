@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon 08</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="banner">
+        <h2 class="banner__caption">Hackathon 08</h2>
+    </div>
+    <div class="container">
+        <section class="my-2">
+            <h2 class="mb-1 secundary-color">Reto 2</h2>
+            <h3 class="mb-1">Ejecicios de lagoritmos</h3>
+            <section>
+                <article class="card">
+                    <h4 class="card__title">Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se
+                        deberá imprimir en pantalla</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar dos valores, los cuales se guardarán en dos variables (a,b)</li>
+                        <li>Se creará un variable(respuesta) que será la suma de estas dos variables (a+b)</li>
+                        <li>Por último, se imprimirá en pantalla la variable resultado.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Un estudiante realiza 4 exámenes, calcular el promedio de estos</h4>
+                    <ul class="card__list">
+                        <li>Se pide ingresar las notas de los 4 exámenes, las cuales se guardan en las variables a, b, c y d.</li>
+                        <li>Se creará la variable “promedio” que será el resultado de sumar las 4 notas, luego dividirlas entre 4 ((a + b + c +d) /4).</li>
+                        <li>Y se imprimirá en pantalla la variable promedio.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Calcular el área de un rectángulo</h4>
+                    <ul class="card__list">
+                        <li>Se pide ingresar los siguientes datos: base y altura, los cuales se guardarán en dos variables (b, h)</li>
+                        <li>Se creará un variable(areaCua) que será la multiplicará las dos variables (b * h)</li>
+                        <li>Y se imprimirá en pantalla la variable áreaCua.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Calcular el área de un triángulo</h4>
+                    <ul class="card__list">
+                        <li>Se pide ingresar los siguientes datos: base y altura, los cuales se guardarán en dos variables (b, h)</li>
+                        <li>Se creará un variable(areaTri) que será el resultado de multiplicarlas dos variables y luego dividirlas entre 2 ((b * h) /2)</li>
+                        <li>Y se imprimirá en pantalla la variable áreaTri.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Calcular el área de una circunferencia</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar el siguiente dato: radio, el cual se guardará en la variable r.</li>
+                        <li>Se creará un variable(areaCir) que será el resultado de multiplicar π por r al cuadrado (π *(math.pow(r,2))</li>
+                        <li>Y se imprimirá en pantalla la variable áreaCir.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Determinar el sueldo semanal de un trabajador basándose en sus horas
+                        trabajadas y su salario de hora hombre</h4>
+                    <ul class="card__list">
+                        <li>Creamos las variables: salarioHo (salario de hora hombre) y horasTra (total de horas trabajadas por semana)</li>
+                        <li>Se creará la variable sueldoSe, que será igual a (salarioHo * horasTra), que determinará el sueldo semanal de un trabajador</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.
+                        Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas,
+                        pero ella generalmente las tiene en metros. Realice un algoritmo para ayudar a
+                        resolver el problema, determinando cuantas pulgadas debe pedir con base en
+                        los metros que requiere. Represéntelo mediante el diagrama de flujo y el
+                        pseudocódigo (1 pulgada = 0.0254 m).</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar el dato de la cantidad en metros que necesita, el cual se guardará en la variable “cantMetros”.</li>
+                        <li>Se creará la variable “cantPul” la cual será el resultado de dividir (cantMetros / 0.0254)</li>
+                        <li>Mostrando en la variable “cantPul” la conversión de metros a pulgadas.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Una empresa importadora desea determinar cuántos dólares puede adquirir
+                        con equis cantidad de dinero peruano</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar 2 datos: cantidad en soles que necesita y el precio actual del dólar, los cual se guardarán en las variables “cantSoles” y “priceDollar”</li>
+                        <li>Se creará la variable “cantDollar” la cual será el resultado de dividir (cantSoles / prideDollar)</li>
+                        <li>Mostrando en la variable “cantDollar” la conversión de soles a dolares.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Una empresa que contrata personal requiere determinar la edad de las
+                        personas que solicitan trabajo, pero cuando se les realiza la entrevista sólo se
+                        les pregunta el año en que nacieron</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar 2 datos: año de nacimiento y el año actual, los cual se guardarán en las variables “yearNacimiento” y “yearActual”</li>
+                        <li>Se creará la variable “agePostulante” la cual será el resultado de restar (yearActual - yearNacimiento)</li>
+                        <li>Mostrando en la variable “agePostulante” la edad actual del postulante.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la
+                        edad de la persona de menor edad</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar dos datos por persona: nombre y edad, ambos datos se guardarán en un variable “personUno”, de la misma manera con las otras 2 personas.</li>
+                        <li>Se compara los datos de la edad para hallar el mayor de los tres.</li>
+                        <li>Y se mostrara la variable con los datos de nombre y edad correspondiente a la persona de mayor edad.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Se les dará un bono por antigüedad a los empleados de una tienda. Si tienen un
+                        año, se les dará $100; si tienen 2 años, $200, y así sucesivamente hasta los 5
+                        años. Para los que tengan más de 5, el bono será de $1000. Realice un algoritmo
+                        y represéntelo ,que permita determinar el bono que recibirá un trabajador</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar el dato de años de antigüedad el cual se guardará en la variable “yearsAntiguedad”</li>
+                        <li>Se condiciona:
+                            <ul class="card__list my-1">
+                                <li>En el caso que la variable “yearsAntiguedad” sea igual a 1 (yearsAntiguedad === 1) le corresponderá 100</li>
+                                <li>Si variable “yearsAntiguedad” sea igual a 2 (yearsAntiguedad === 2) le corresponderá 200. Y así sucesivamente hasta el 4.</li>
+                                <li>En el caso que se mayor a 5 (yearsAntiguedad >= 5) le corresponderá 1000</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10 % anual
+                        durante 6 años. ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido
+                        en cada uno de los 6 años? Realice el algoritmo y representan la solución,
+                        utilizando el ciclo apropiado</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar el dato de salario inicial el cual se guardará en la variable “salarioInicial”.</li>
+                        <li>Se crea la variable del valor del porcentaje de incremento llamada “porcentajeIncremento” en este caso su valor seria 10% = 0.1
+                        </li>
+                        <li>Se crea la variable salario nuevo, denominada “salarioNuevo” el cual será igual a ( salarioInicial + (salaraioInicial * porcentajeIncremento)a final de cada año.</li>
+                        <li>Siendo así al final de cada año “salarioNuevo” =  “salarioInicial” por un ciclo de 6 años.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Realice un algoritmo para leer las calificaciones de N alumnos y determine el
+                        número de aprobados y reprobados</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar la nota real, la cual se, guardará en la variable “nota”</li>
+                        <li>Se creará las variables “desAprob” y “aprob” que iniciaran en 0.</li>
+                        <li>Se condiciona:
+                            <ul class="card__list my-1">
+                                <li>Si (nota < 10.5) entonces desAprob = desAprob + 1</li>
+                                <li>Si no, entonces aprob = aprob +1</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Una compañía, fabrica focos de colores (verdes, blancos y rojos). Se desea
+                        contabilizar, de un lote de N focos, el número de focos de cada color que hay en
+                        existencia</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar el color de los focos, la cual se, guardará en la variable “focos”</li>
+                        <li>Se creará las variables “verdes”, “blancos” y “rojos” que iniciaran en  0.</li>
+                        <li>Se condiciona:
+                            <ul class="card__list my-1">
+                                <li>Si (focos === ‘verde’) entonces verdes = verdes +1</li>
+                                <li>Si (focos === ‘rojo’), entonces rojos = rojos +1</li>
+                                <li>Si (focos === ‘blanco’), entonces blancos = blancos +1</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h4 class="card__title">Realice un algoritmo para determinar si una persona puede votar con base en
+                        su edad en las próximas elecciones</h4>
+                    <ul class="card__list">
+                        <li>Se pedirá ingresar edad del ciudadano, la cual se guardará en la variable “agePerson”</li>
+                        <li>Se condiciona:
+                            <ul class="card__list my-1">
+                                <li>Si (agePerson >= 18) entonces True </li>
+                                <li>Sino Entonces False</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+                
+            </section>
+        </section>
+    </div>
+</body>
+</html>
